@@ -1,4 +1,4 @@
-package com.example.demo3.model.Controller;
+package com.example.demo3.Controller;
 
 
 import com.example.demo3.Greeting;
@@ -17,6 +17,8 @@ public class TestController {
     public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
+
+
 
 
 }
