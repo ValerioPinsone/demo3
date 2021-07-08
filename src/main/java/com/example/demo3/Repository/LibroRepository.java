@@ -11,6 +11,6 @@ import java.util.List;
 public interface LibroRepository extends JpaRepository<Libro,Integer> {
 
     //@Query("from Libro l join autore a on l.autore.id = a.id where a.cognome = :cognome")
-    //List<Libro> filtraAutore(String cognome);
+    // List<Libro> filtraAutore(String cognome);
 
 }
